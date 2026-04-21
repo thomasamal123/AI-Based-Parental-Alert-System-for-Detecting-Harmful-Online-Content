@@ -100,7 +100,29 @@ User Input
 → Case Logging (with Timestamp)
 
 ---
+## Project Structure
 
+```
+AI-Based-Parental-Alert-System-for-Detecting-Harmful-Online-Content/
+│
+├── README.md
+│
+└── cyber_project/
+    │
+    ├── app.py                      # Streamlit application
+    ├── Parent_Alert_System.ipynb   # Model training and experimentation
+    ├── svm_bert_model.pkl          # Trained SVM model (MiniLM embeddings)
+    ├── history.csv                 # Stored prediction history with timestamps
+    ├── requirements.txt            # Project dependencies
+    │
+    ├── cyber_images/               # Images used in the application
+    │   ├── A.png
+    │   ├── D.png
+    │   ├── SAFE.png
+    │   └── ...
+    │
+    └── SAMPLE_CASES/               # Sample test cases for demonstration
+```
 ## How to Run the Project
 
 ### 1. Install Dependencies
