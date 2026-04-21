@@ -33,17 +33,6 @@ It also provides an alert mechanism and stores detected cases with timestamps fo
 - Case history tracking with timestamps  
 - Interactive user interface  
 
----
-
-## Project Structure
-cyber_project/
-│
-├── app.py # Streamlit application
-├── Parent_Alert_System.ipynb # Model development notebook
-├── svm_bert_model.pkl # Trained SVM model
-├── history.csv # Stored prediction history
-└── cyber_images/ # Images used in the app
-
 
 ---
 
