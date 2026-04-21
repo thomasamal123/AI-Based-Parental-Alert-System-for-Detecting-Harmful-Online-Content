@@ -8,8 +8,9 @@ The system classifies user input text into two categories:
 - Safe  
 - Harmful  
 
-It also provides an alert mechanism and stores detected cases with timestamps for monitoring purposes.
+When harmful content is detected, the system triggers an automated parental alert, displaying a warning message in the application and generating a simulated email notification to inform the parent or guardian.
 
+It also stores detected cases with timestamps for monitoring and tracking purposes.
 ---
 
 ## Objectives
