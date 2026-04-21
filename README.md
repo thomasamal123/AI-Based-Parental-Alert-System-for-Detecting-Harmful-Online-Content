@@ -1,4 +1,4 @@
-# AI-Based Cyberbullying Detection System
+# AI-Based Parental Alert System for Detecting Harmful Online Content
 
 ## Overview
 
